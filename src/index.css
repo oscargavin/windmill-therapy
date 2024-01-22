@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  background-color: #79dcf8;
+  font-family: 'Roboto Slab', serif;
+}
+.title {
+  font-family: 'El Messiri', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.wave {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(188% + 1.3px);
+  height: 99px;
+}
+
+.wave .shape-fill {
+  fill: #D5F6FF;
+}
+
+.curve {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(188% + 1.3px);
+  height: 99px;
+}
+
+.curve .shape-fill {
+  fill: #D5F6FF;
+}
+
+.cloud {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.cloud svg {
+  position: relative;
+  display: block;
+  width: calc(188% + 1.3px);
+  height: 99px;
+}
+
+.cloud .shape-fill {
+  fill: #79DCF8;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+
+.white-bg {
+  background-color: #D5F6FF;
+}
