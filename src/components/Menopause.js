@@ -1,7 +1,7 @@
 export default function Menopause() {
   return (
     <div className="white-bg py-16">
-      <p className="mx-auto w-4/5 md:w-2/5 text-center text-xl">
+      <p className="mx-auto w-4/5 md:w-2/5 text-gray-700 text-center text-xl">
         Menopause is one such time in life where you may find yourself feeling
         greater levels of stress and anxiety. Menopause, rather like puberty, is
         a transitional phase marked by wildly fluctuating hormones and often
@@ -11,7 +11,7 @@ export default function Menopause() {
         physical and psychological symptoms.
       </p>
       <br></br>
-      <p className="mx-auto w-4/5 md:w-2/5 text-center text-xl">
+      <p className="mx-auto w-4/5 md:w-2/5 text-gray-700 text-center text-xl">
         Clinical hypnotherapy has been shown to be an effective method in
         helping with many of the symptoms associated with the menopause
         including hot flushes, brain fog, and fatigue. Hypnotherapy is a safe
