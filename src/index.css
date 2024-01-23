@@ -79,3 +79,15 @@ body {
 .white-bg {
   background-color: #D5F6FF;
 }
+
+/* CSS */
+.navbar {
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  transition: top 0.15s;
+}
+
+.navbar-hidden {
+  top: -100px; /* Adjust based on the height of your navbar */
+}

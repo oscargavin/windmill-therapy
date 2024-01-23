@@ -1,9 +1,33 @@
 import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function Nav() {
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [navbarHidden, setNavbarHidden] = useState(false);
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      // Scrolling down
+      if (window.scrollY > lastScrollY) {
+        setNavbarHidden(true);
+      } else {
+        // Scrolling up
+        setNavbarHidden(false);
+      }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, [lastScrollY]);
   return (
-    <>
-      <div className="navbar bg-gray-50 bg-opacity-45 drop-shadow-lg">
+    <div className={`navbar ${navbarHidden ? "navbar-hidden" : ""}`}>
+      <div className="navbar bg-gray-50 drop-shadow-lg">
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -83,7 +107,7 @@ function Nav() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -5,7 +5,7 @@ function Background() {
   return (
     <div className="md:h-full mt-16 md:mb-24">
       <div className="flex flex-col justify-center md:mt-24 my-8">
-        <h1 className="text-4xl font-pacifico mb-6 mx-auto text-center md:text-7xl text-gray-700">
+        <h1 className="text-5xl font-pacifico mb-6 mx-auto text-center md:text-7xl text-gray-700">
           Your Path to Gentle Healing
         </h1>
         <h2 className="text-2xl mx-auto font-messiri title text-gray-500 mt-1">
