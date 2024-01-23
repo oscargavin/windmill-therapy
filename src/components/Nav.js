@@ -27,7 +27,7 @@ function Nav() {
   }, [lastScrollY]);
   return (
     <div className={`navbar ${navbarHidden ? "navbar-hidden" : ""}`}>
-      <div className="navbar bg-gray-50 drop-shadow-lg">
+      <div className="navbar bg-gray-50 rounded-lg drop-shadow-lg">
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
