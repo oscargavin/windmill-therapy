@@ -12,7 +12,7 @@ function Services() {
   const [ref6, inView6] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <div className="flex flex-col justify-center items-center md:grid md:grid-cols-3 gap-8 mx-6 md:mx-12 my-16">
+    <div className="mt-24 flex z-0 flex-col justify-center items-center md:grid md:grid-cols-3 gap-8 mx-6 md:mx-12 my-16">
       <div ref={ref1} className={`fade-in ${inView1 ? "visible" : ""}`}>
         <ServiceCard
           img="/menopause.png"

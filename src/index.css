@@ -8,6 +8,7 @@ body {
   background-color: #79dcf8;
   font-family: 'Roboto Slab', serif;
 }
+
 .title {
   font-family: 'El Messiri', sans-serif;
   font-family: 'Inter', sans-serif;
@@ -74,7 +75,6 @@ body {
 .fade-in.visible {
   opacity: 1;
 }
-
 
 .white-bg {
   background-color: #D5F6FF;

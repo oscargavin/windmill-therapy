@@ -1,14 +1,17 @@
 function Footer() {
   return (
-    <footer className="footer w-full flex items-center p-4">
+    <footer className="footer w-full mt-12 pb-8 flex items-center p-4">
       <aside className="flex flex-row justify-between items-center w-full">
         <img src="/logo.png" className="w-1/12"></img>
-        <div className="flex space-x-8 flex-row justify-center w-full">
+        <div className="flex space-x-8 flex-row items-center justify-center w-full">
           <img
-            className="w-1/12 drop-shadow-sm"
+            className="w-1/12 h-1/12 drop-shadow-sm"
             src="/mindful_menopause.webp"
           ></img>
-          <img className="w-1/2 drop-shadow-sm rounded-md" src="/nch.png"></img>
+          <img
+            className="w-1/3 h-1/3 drop-shadow-sm rounded-md"
+            src="/nch.png"
+          ></img>
         </div>
         <nav className="flex space-x-8">
           <a className="">

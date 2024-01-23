@@ -5,7 +5,7 @@ function Nav() {
     <>
       <div className="navbar bg-gray-50 bg-opacity-45 drop-shadow-lg">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ function Nav() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[0] p-2 shadow bg-gray-50 text-gray-700 rounded-sm w-52"
+              className="menu menu-sm z-50 dropdown-content mt-3 p-2 shadow bg-gray-50 text-gray-700 rounded-sm w-52"
             >
               <Link to="/">
                 <li className="text-gray-700">
@@ -40,42 +40,44 @@ function Nav() {
 
               <Link to="/about">
                 <li className="text-gray-700">
-                  <a>About Us</a>
+                  <a>About</a>
                 </li>
               </Link>
             </ul>
           </div>
           <Link className="flex flex-row items-center" to="/">
-            <img src="/logo.png" className="w-20" alt="logo" />
-            <a className="btn btn-ghost font-pacifico text-gray-700 hidden md:flex text-2xl">
+            <Link to="/">
+              <img src="/logo.png" className="w-20" alt="logo" />
+            </Link>
+            <p className="btn btn-ghost font-pacifico text-gray-700 hidden md:flex text-2xl">
               Windmill Hypnotherapy
-            </a>
+            </p>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl">
             <Link to="/">
               <li className="text-gray-700">
-                <a>Home</a>
+                <a className="font-messiri font-light">Home</a>
               </li>
             </Link>
 
             <Link to="/services">
               <li className="text-gray-700">
-                <a>Services</a>
+                <a className="font-messiri font-light">Services</a>
               </li>
             </Link>
 
             <Link to="/about">
-              <li className="text-gray-700">
-                <a>About Us</a>
+              <li className="text-gray-700 font-light">
+                <a className="font-messiri">About</a>
               </li>
             </Link>
           </ul>
         </div>
         <div className="navbar-end">
           <Link to="/contact" className="text-gray-50">
-            <a className="btn btn-accent font-normal border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700">
+            <a className="btn btn-accent font-messiri font-light text-xl border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700">
               Contact
             </a>
           </Link>
