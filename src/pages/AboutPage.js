@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div ref={ref1} className={`fade-in ${inView1 ? "visible" : ""}`}>
       <Nav />
-      <h className="font-pacifico flex justify-center mt-16 text-5xl">
+      <h className="font-pacifico flex justify-center text-center mt-16 text-gray-800 text-3xl md:text-5xl">
         Frequently Asked Questions
       </h>
       <div className="mx-6 my-16 flex flex-col space-y-4">
