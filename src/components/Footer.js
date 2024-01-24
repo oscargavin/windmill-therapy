@@ -7,12 +7,6 @@ function Footer() {
           <h1 className="text-gray-500 text-sm font-light">
             <a href="tel:+447825674771">Tel 07825674771</a>
           </h1>
-          <a
-            href="mailto:enquiries@windmillhypnotherapy.com"
-            className="text-gray-500 text-sm font-light"
-          >
-            enquiries@windmillhypnotherapy.com
-          </a>
         </div>
 
         <nav className="flex space-x-8">

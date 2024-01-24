@@ -47,7 +47,7 @@ export default function Contact() {
               fill="currentColor"
             />
           </svg>
-          <h1 className="text-2xl">
+          <h1 className="text-gray-600 text-2xl font-light">
             <a href="tel:+447825674771">Tel 07825674771</a>
           </h1>
         </div>
@@ -76,7 +76,7 @@ export default function Contact() {
               fill="currentColor"
             />
           </svg>
-          <h1 className="text-2xl">
+          <h1 className="text-2xl text-gray-600 font-light">
             <a href="mailto:enquiries@windmilltherapy.com">
               enquiries@windmilltherapy.com
             </a>
