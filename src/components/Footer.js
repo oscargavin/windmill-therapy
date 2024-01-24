@@ -5,7 +5,7 @@ function Footer() {
         <img src="/logo.png" className="w-16"></img>
         <div className="flex space-x-8 flex-col items-center justify-center w-full">
           <h1 className="text-gray-500 text-sm font-light">
-            <a href="tel:+447825674771">Tel 07825674771</a>
+            <a href="tel:+447825674771">Tel 07825 674771</a>
           </h1>
         </div>
 

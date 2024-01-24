@@ -24,10 +24,10 @@ export default function Contact() {
   return (
     <div className="md:mx-auto mx-auto w-11/12 md:px-32">
       <div className="flex flex-col justify-center items-center space-y-2">
-        <h1 className="drop-shadow-md rounded-md mb-6 text-gray-700 mx-auto justify-center items-center flex mt-16 font-bold text-4xl underline">
+        <h1 className="drop-shadow-md font-pacifico rounded-md mb-6 text-gray-700 mx-auto justify-center items-center flex mt-16 font-bold text-4xl underline">
           Contact
         </h1>
-        <div className="flex flex-row space-x-4 items-center">
+        <div className="flex flex-row justify-center space-x-4 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-phone-filled"
@@ -47,11 +47,11 @@ export default function Contact() {
               fill="currentColor"
             />
           </svg>
-          <h1 className="text-gray-600 text-2xl font-light">
-            <a href="tel:+447825674771">Tel 07825674771</a>
+          <h1 className="text-gray-600 font-messiri text-2xl font-light">
+            <a href="tel:+447825674771">Tel 078256 74771</a>
           </h1>
         </div>
-        <div className="flex flex-row space-x-4 items-center">
+        <div className="flex flex-row justify-center font-messiri space-x-4 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-mail-filled"
@@ -83,7 +83,7 @@ export default function Contact() {
           </h1>
         </div>
       </div>
-      <div className="mx-auto md:pr-2 w-full grid grid-cols-1 md:grid-cols-6 my-12 backdrop-blur-md bg-white/30 rounded-lg drop-shadow-lg">
+      <div className="mx-auto md:pr-2 w-full grid grid-cols-1 md:grid-cols-6 my-12 backdrop-blur-md bg-white/50 rounded-lg drop-shadow-lg">
         <img
           src="/discussion.png"
           className="md:col-start-1 md:col-span-3 rounded-t-lg md:rounded-l-lg"

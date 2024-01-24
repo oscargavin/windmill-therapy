@@ -3,7 +3,7 @@ import React from "react";
 const ContactInfo = () => {
   return (
     <div className="container md:mx-auto w-full mx-auto md:w-11/12 px-4 mb-12">
-      <div className="backdrop-blur-md bg-white/30 p-6 rounded-md shadow-md flex flex-row justify-between">
+      <div className="backdrop-blur-md bg-white/50 p-6 rounded-md shadow-md flex flex-row justify-between">
         <div className="">
           <h2 className="text-xl text-gray-700 font-semibold mb-4">
             Points of contact

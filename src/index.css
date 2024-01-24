@@ -33,7 +33,7 @@ body {
 }
 
 .wave .shape-fill {
-  fill: #D5F6FF;
+  fill: #ebfbff;
 }
 
 .curve {
@@ -50,7 +50,7 @@ body {
 }
 
 .curve .shape-fill {
-  fill: #D5F6FF;
+  fill: #ebfbff;
 }
 
 .cloud {
@@ -81,7 +81,7 @@ body {
 }
 
 .white-bg {
-  background-color: #D5F6FF;
+  background-color: #ebfbff;
 }
 
 /* CSS */

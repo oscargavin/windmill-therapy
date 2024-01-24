@@ -9,8 +9,11 @@ export default function AboutPage() {
   return (
     <div ref={ref1} className={`fade-in ${inView1 ? "visible" : ""}`}>
       <Nav />
-      <div className="mx-12 my-16 flex flex-col space-y-4">
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+      <h className="font-pacifico flex justify-center mt-16 text-5xl">
+        Frequently Asked Questions
+      </h>
+      <div className="mx-6 my-16 flex flex-col space-y-4">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             What is Hypnotherapy?
@@ -24,7 +27,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Has Hypnotherapy Been Proven to Work??
@@ -37,7 +40,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             What are Your Total List of Services?
@@ -49,7 +52,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Can I Ask for a Service Not Listed on Your Services Page?
@@ -62,7 +65,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             How Can I Contact You for a Booking?
@@ -75,7 +78,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Can I Call to Discuss a Potential Booking If I Am Uncertain?
@@ -87,7 +90,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             What Dates and Times Are You Available?
@@ -99,7 +102,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Is Hypnotherapy Safe?
@@ -112,7 +115,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             How Many Sessions Will I Need?
@@ -125,7 +128,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Can Hypnotherapy Help with Anxiety?
@@ -138,7 +141,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             What Should I Expect in My First Session?
@@ -151,7 +154,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Will I Be in Control During Hypnotherapy?
@@ -165,21 +168,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
-          <input type="radio" name="my-accordion-1" />
-          <div className="collapse-title text-gray-700 text-xl font-medium">
-            Will I Be in Control During Hypnotherapy?
-          </div>
-          <div className="collapse-content text-gray-600">
-            <p>
-              Many people worry about losing control during hypnotherapy.
-              However, you remain in control throughout the session.
-              Hypnotherapy is a state of focused attention where you can choose
-              to accept or reject the suggestions made by the therapist.
-            </p>
-          </div>
-        </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             How Should I Prepare for a Hypnotherapy Session?
@@ -193,7 +182,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-gray-50 bg-opacity-30 drop-shadow-md">
+        <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
             Are the Effects of Hypnotherapy Long-Lasting?

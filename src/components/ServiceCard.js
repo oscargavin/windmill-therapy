@@ -5,14 +5,16 @@ export default function ServiceCard(props) {
         <img src={props.img} className="rounded-t-none" alt="" />
       </figure>
       <div className="card-body md:h-60 h-auto">
-        <h2 className="card-title text-gray-100 font-light text-2xl ">
+        <h2 className="card-title text-gray-700 font-light text-2xl ">
           {props.title}
         </h2>
-        <p className="text-xl font-light text-gray-50 overflow-y-scroll">
+        <p className="text-xl font-light text-gray-600 overflow-y-scroll">
           {props.description}
         </p>
         <div className="card-actions justify-end">
-          <div className="badge badge-outline rounded-md">Price</div>
+          <div className="badge badge-outline border-1 border-gray-600 text-gray-600 rounded-md">
+            Price
+          </div>
           <div className="badge badge-outline bg-green-100 text-green-800">
             {props.price}
           </div>
