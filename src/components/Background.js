@@ -22,7 +22,7 @@ function Background() {
           that you desire quickly. Hypnotherapy aims to promote a sense of
           wellbeing.
         </p>
-        <div className="flex flex-row space-x-2 mt-8 justify-center">
+        <div className="flex flex-row space-x-2 mt-24 justify-center">
           <button className="btn btn-accent bg-cyan-400 font-extralight hover:bg-cyan-500">
             <Link to="/contact" className="text-xl font-light font-messiri">
               Contact
