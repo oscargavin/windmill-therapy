@@ -4,12 +4,12 @@ function Footer() {
       <aside className="flex flex-row justify-between items-center w-full">
         <img src="/logo.png" className="w-16"></img>
         <div className="flex space-x-8 flex-col items-center justify-center w-full">
-          <h1 className="text-gray-500 font-light">
+          <h1 className="text-gray-500 text-sm font-light">
             <a href="tel:+447825674771">Tel 07825674771</a>
           </h1>
           <a
             href="mailto:enquiries@windmillhypnotherapy.com"
-            className="text-gray-500 font-light pr-8"
+            className="text-gray-500 text-sm font-light pr-8"
           >
             enquiries@windmillhypnotherapy.com
           </a>
