@@ -37,7 +37,7 @@ export default function HomePage() {
         ref={refNavBackground}
         className={`fade-in ${
           inViewNavBackground ? "visible" : ""
-        } bg-hero-background bg-cover bg-center bg-no-repeat md:h-full mb-16`}
+        } bg-hero-background bg-cover bg-center bg-no-repeat md:h-full`}
       >
         <Nav />
         <Background />
