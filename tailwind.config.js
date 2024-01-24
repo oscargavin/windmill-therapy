@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "hero-background": "url('/public/background.png')",
+        "hero-background": "url('/public/hero-background.png')",
       }),
       fontFamily: {
         gothic: ['"Old London"', "serif"],

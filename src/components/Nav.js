@@ -27,7 +27,7 @@ function Nav() {
   }, [lastScrollY]);
   return (
     <div className={`navbar ${navbarHidden ? "navbar-hidden" : ""}`}>
-      <div className="navbar bg-gray-50 rounded-lg drop-shadow-lg">
+      <div className="navbar backdrop-blur-md bg-white/30 border-2 border-gray-50 rounded-lg drop-shadow-lg">
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -70,8 +70,8 @@ function Nav() {
             </ul>
           </div>
           <Link className="flex flex-row items-center" to="/">
-            <Link to="/">
-              <img src="/logo.png" className="w-20" alt="logo" />
+            <Link to="/" className="w-full">
+              <img src="/logo.png" className="w-12" alt="logo" />
             </Link>
             <p className="btn btn-ghost font-pacifico text-gray-700 hidden md:flex text-2xl">
               Windmill Hypnotherapy
@@ -100,8 +100,8 @@ function Nav() {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/contact" className="text-gray-50">
-            <a className="btn btn-accent font-messiri font-light text-xl border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700">
+          <Link to="/contact">
+            <a className="btn btn-accent font-messiri font-light text-lg border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700">
               Contact
             </a>
           </Link>

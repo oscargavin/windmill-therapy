@@ -35,7 +35,9 @@ export default function HomePage() {
     <div>
       <div
         ref={refNavBackground}
-        className={`fade-in ${inViewNavBackground ? "visible" : ""}`}
+        className={`fade-in ${
+          inViewNavBackground ? "visible" : ""
+        } bg-hero-background bg-cover bg-center bg-no-repeat h-screen w-screen`}
       >
         <Nav />
         <Background />

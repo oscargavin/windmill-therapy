@@ -1,6 +1,6 @@
 export default function Wave() {
   return (
-    <div class="wave">
+    <div class="wave z-50">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
