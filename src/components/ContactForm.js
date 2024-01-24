@@ -24,7 +24,7 @@ export default function Contact() {
   return (
     <div className="md:mx-auto mx-auto w-11/12 md:px-32">
       <div className="flex flex-col justify-center items-center space-y-2">
-        <h1 className="drop-shadow-md font-pacifico rounded-md mb-6 text-gray-700 mx-auto justify-center items-center flex mt-16 font-bold text-4xl underline">
+        <h1 className="drop-shadow-md font-pacifico rounded-md mb-6 text-gray-900 mx-auto justify-center items-center flex mt-16 font-bold text-4xl underline">
           Contact
         </h1>
         <div className="flex flex-row justify-center space-x-4 items-center">
