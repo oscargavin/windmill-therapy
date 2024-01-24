@@ -9,7 +9,7 @@ function Footer() {
           </h1>
           <a
             href="mailto:enquiries@windmillhypnotherapy.com"
-            className="text-gray-500 text-sm font-light pr-8"
+            className="text-gray-500 text-sm font-light"
           >
             enquiries@windmillhypnotherapy.com
           </a>
