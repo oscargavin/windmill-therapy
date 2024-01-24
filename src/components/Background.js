@@ -10,7 +10,7 @@ function Background() {
         <h2 className="text-2xl mx-auto font-messiri title text-gray-500 mt-1">
           Clinical Hypnotherapy
         </h2>
-        <p className="mt-4 text-center text-xl text-gray-800 font-gothic w-4/5 md:w-2/5 mx-auto">
+        <p className="mt-4 text-center text-md md:text-xl text-gray-800 font-gothic w-4/5 md:w-2/5 mx-auto">
           My name is Jenny Gavin and I work as a clinical hypnotherapist. I have
           worked as a healthcare professional both in nursing and as a
           specialist clinical healthcare scientist for many years. I work in a
