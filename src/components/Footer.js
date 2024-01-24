@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer w-full mt-12 flex items-center pb-4 px-4">
       <aside className="flex flex-row justify-between items-center w-full">
         <img src="/logo.png" className="w-16"></img>
-        <div className="flex space-x-8 flex-col items-center justify-center w-full pr-10 md:pr-16">
+        <div className="flex space-x-8 flex-col items-center justify-center w-full">
           <h1 className="text-gray-500 font-light">
             <a href="tel:+447825674771">Tel 07825674771</a>
           </h1>
