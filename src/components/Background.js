@@ -7,7 +7,7 @@ function Background() {
         <h1 className="text-5xl font-pacifico mb-6 mx-auto text-center md:text-7xl text-gray-700">
           Your Path to Gentle Healing
         </h1>
-        <h2 className="text-2xl mx-auto font-messiri title text-gray-500 mt-1">
+        <h2 className="text-2xl mx-auto font-messiri title text-gray-500 mb-6">
           Clinical Hypnotherapy
         </h2>
         <p className="mt-4 text-center text-md md:text-xl text-gray-800 font-gothic w-4/5 md:w-2/5 mx-auto">
@@ -22,14 +22,14 @@ function Background() {
           that you desire quickly. Hypnotherapy aims to promote a sense of
           wellbeing.
         </p>
-        <div className="flex flex-row space-x-2 mt-24 justify-center">
+        <div className="flex flex-row space-x-2 mt-12 md:mt-24 justify-center">
           <button className="btn btn-accent bg-cyan-400 font-extralight hover:bg-cyan-500">
-            <Link to="/contact" className="text-xl font-light font-messiri">
+            <Link to="/contact" className="md:text-xl font-light font-messiri">
               Contact
             </Link>
           </button>
           <button className="btn btn-outline bg-blue-100 bg-opacity-30 border-gray-500 text-gray-500">
-            <Link to="/services" className="text-xl font-light font-messiri">
+            <Link to="/services" className="md:text-xl font-light font-messiri">
               Services
             </Link>
           </button>
