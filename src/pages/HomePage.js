@@ -33,6 +33,7 @@ export default function HomePage() {
 
   return (
     <div>
+      <title>Jenny Gavin Hypnotherapy</title>
       <div
         ref={refNavBackground}
         className={`fade-in ${

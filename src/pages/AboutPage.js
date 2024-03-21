@@ -30,7 +30,7 @@ export default function AboutPage() {
         <div className="collapse backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
           <input type="radio" name="my-accordion-1" />
           <div className="collapse-title text-gray-700 text-xl font-medium">
-            Has Hypnotherapy Been Proven to Work??
+            Has Hypnotherapy Been Proven to Work?
           </div>
           <div className="collapse-content text-gray-600">
             <p>
