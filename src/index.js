@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
     <Helmet>
       <title>Windmill Hypnotherapy | Professional Hypnotherapy Services</title>
+      <link rel="icon" type="image/png" href="/logo.png" />
       <meta
         name="description"
         content="Windmill Hypnotherapy provides professional hypnotherapy services to help you overcome challenges, improve well-being, and achieve your goals. Book a session today!"
