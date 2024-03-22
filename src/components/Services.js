@@ -26,7 +26,7 @@ function Services() {
           img="/stress.png"
           title="Stress & Anxiety"
           description="Manage stress effectively with our tailored hypnotherapy solutions. Experience relaxation and regain control over your stress responses."
-          price="£75"
+          price="£80"
         />
       </div>
       <div ref={ref3} className={`fade-in ${inView3 ? "visible" : ""}`}>
@@ -34,7 +34,7 @@ function Services() {
           img="/weight.png"
           title="Weight"
           description="Break free from the grip of anxiety. Personalized hypnotherapy sessions are designed to reduce anxiety symptoms and foster a peaceful state of mind."
-          price="£50"
+          price="£80"
         />
       </div>
       <div ref={ref4} className={`fade-in ${inView4 ? "visible" : ""}`}>
@@ -42,7 +42,7 @@ function Services() {
           img="/insomnia.png"
           title="Insomnia"
           description="Overcome insomnia and enjoy restful sleep. Our hypnotherapy techniques are aimed at relaxing your mind and improving your sleep patterns."
-          price="£50"
+          price="£80"
         />
       </div>
       <div ref={ref5} className={`fade-in ${inView5 ? "visible" : ""}`}>
@@ -50,7 +50,7 @@ function Services() {
           img="/phobias.png"
           title="Phobias"
           description="Boost your self-confidence and self-esteem through targeted hypnotherapy sessions. Embark on a journey to discover and empower your inner self."
-          price="£50"
+          price="£80"
         />
       </div>
       <div ref={ref6} className={`fade-in ${inView6 ? "visible" : ""}`}>
@@ -58,7 +58,7 @@ function Services() {
           img="/smoking.png"
           title="Smoking"
           description="Are you struggling with quitting smoking? Book a personal session with our trained hypnotherapists."
-          price="£175"
+          price="£180"
         />
       </div>
     </div>
