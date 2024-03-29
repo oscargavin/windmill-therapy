@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Hypnotherapy Website
+
+# Allow all search engines to access all content
 User-agent: *
 Disallow:
+
+# Sitemap: specify the path to your website's sitemap
+# Ensure you generate a sitemap.xml that reflects the SPA's navigable paths
+Sitemap: https://www.windmillhypnotherapy/sitemap.xml
