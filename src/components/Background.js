@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Background() {
   return (
     <div className="md:w-full pb-12 md:pb-36">
-      <div className="flex flex-col px-8 justify-center mx-2 md:mt-16 md:h-3/4 backdrop-blur-lg bg-white/50 py-16 md:w-5/6 items-center md:mx-auto rounded-lg border-2 border-gray-50 drop-shadow-lg">
+      <div className="flex flex-col px-8 justify-center mx-2 md:mt-16 md:h-3/4 backdrop-blur-lg bg-white/50 py-16 md:w-5/6 items-center md:mx-auto rounded-lg drop-shadow-lg">
         <h1 className="text-5xl font-pacifico mb-6 mx-auto text-center md:text-7xl text-gray-700">
           Your Path to Gentle Healing
         </h1>

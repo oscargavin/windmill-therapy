@@ -77,8 +77,8 @@ export default function Contact() {
             />
           </svg>
           <h1 className="text-2xl text-gray-600 font-light">
-            <a href="mailto:enquiries@windmilltherapy.com">
-              enquiries@windmilltherapy.com
+            <a href="mailto:windmillhypnotherapy.com">
+              windmillhypnotherapy@gmail.com
             </a>
           </h1>
         </div>
