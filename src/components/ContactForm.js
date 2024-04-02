@@ -86,6 +86,7 @@ export default function Contact() {
       <div className="mx-auto md:pr-2 w-full grid grid-cols-1 md:grid-cols-6 my-12 backdrop-blur-md bg-white/50 rounded-lg drop-shadow-lg">
         <img
           src="/discussion.png"
+          alt="Discussion illustration"
           className="md:col-start-1 md:col-span-3 rounded-t-lg md:rounded-l-lg"
         ></img>
         <div className="md:col-start-4 md:col-span-3 flex flex-col items-center justify-center w-full">

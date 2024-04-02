@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react"; // Import useCallback
 
 function Nav() {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [navbarHidden, setNavbarHidden] = useState(false);
 
-  const controlNavbar = () => {
+  // Memoize controlNavbar using useCallback
+  const controlNavbar = useCallback(() => {
     if (typeof window !== "undefined") {
       // Scrolling down
       if (window.scrollY > lastScrollY) {
@@ -16,7 +17,7 @@ function Nav() {
       }
       setLastScrollY(window.scrollY);
     }
-  };
+  }, [lastScrollY]); // lastScrollY is a dependency of controlNavbar
 
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
@@ -24,10 +25,10 @@ function Nav() {
     return () => {
       window.removeEventListener("scroll", controlNavbar);
     };
-  }, [lastScrollY]);
+  }, [controlNavbar]); // controlNavbar is now stable and can be a dependency
   return (
     <div className={`navbar ${navbarHidden ? "navbar-hidden" : ""}`}>
-      <div className="navbar backdrop-blur-lg bg-white/50 border-2 border-gray-50 rounded-lg drop-shadow-lg">
+      <div className="navbar backdrop-blur-lg bg-white/50 rounded-lg drop-shadow-lg">
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,24 +49,18 @@ function Nav() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm z-50 dropdown-content mt-3 p-2 shadow bg-gray-50 text-gray-700 rounded-sm w-52"
+              className="menu menu-sm z-50 dropdown-content mt-3 p-2 shadow bg-gray-50 text-gray-700 rounded-sm w-52 space-y-2 font-roboto"
             >
               <Link to="/">
-                <li className="text-gray-700">
-                  <a>Home</a>
-                </li>
+                <li className="text-gray-700">Home</li>
               </Link>
 
               <Link to="/services">
-                <li className="text-gray-700">
-                  <a>Services</a>
-                </li>
+                <li className="text-gray-700">Services</li>
               </Link>
 
               <Link to="/about">
-                <li className="text-gray-700">
-                  <a>About</a>
-                </li>
+                <li className="text-gray-700">About</li>
               </Link>
             </ul>
           </div>
@@ -79,31 +74,28 @@ function Nav() {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-xl">
+          <ul className="menu menu-horizontal px-1 text-xl md:space-x-6">
             <Link to="/">
-              <li className="text-gray-700">
-                <a className="font-messiri font-light">Home</a>
-              </li>
+              <li className="text-gray-700 font-messiri font-light">Home</li>
             </Link>
 
             <Link to="/services">
-              <li className="text-gray-700">
-                <a className="font-messiri font-light">Services</a>
+              <li className="text-gray-700 font-messiri font-light">
+                Services
               </li>
             </Link>
 
             <Link to="/about">
-              <li className="text-gray-700 font-light">
-                <a className="font-messiri">About</a>
-              </li>
+              <li className="text-gray-700 font-messiri font-light">About</li>
             </Link>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/contact">
-            <a className="btn btn-accent font-messiri font-light text-lg border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700">
-              Contact
-            </a>
+          <Link
+            to="/contact"
+            className="btn btn-accent font-messiri font-light text-lg border-none drop-shadow-md bg-cyan-400 hover:bg-cyan-700 hover:text-gray-100 transition duration-300 ease-in-out"
+          >
+            Contact
           </Link>
         </div>
       </div>

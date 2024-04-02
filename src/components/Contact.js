@@ -5,7 +5,6 @@ import ContactInfo from "./ContactInfo";
 export default function Contact() {
   return (
     <div className="z-10">
-      <ContactForm />
       <ContactInfo />
     </div>
   );

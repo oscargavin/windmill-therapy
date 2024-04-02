@@ -21,10 +21,10 @@ const ContactInfo = () => {
               Service Inquiries
             </h3>
             <a
-              href="mailto:enquiries@windmillhypnotherapy.com"
+              href="mailto:windmillhypnotherapy@gmail.com"
               className="text-indigo-600"
             >
-              enquiries@windmillhypnotherapy.com
+              windmillhypnotherapy@gmail.com
             </a>
             <h1 className="text-indigo-600">
               <a href="tel:+447825674771">Tel 07825674771</a>
@@ -32,8 +32,11 @@ const ContactInfo = () => {
           </div>
           <div className="mb-6">
             <h3 className="text-lg font-semibold text-gray-700">Support</h3>
-            <a href="mailto:support@flowbite.com" className="text-indigo-600">
-              support@windmillhypnotherapy.com
+            <a
+              href="mailto:windmillhypnotherapy@gmail.com"
+              className="text-indigo-600"
+            >
+              windmillhypnotherapy@gmail.com
             </a>
           </div>
         </div>
